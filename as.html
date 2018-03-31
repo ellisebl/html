@@ -1,0 +1,32 @@
+
+<html>
+        <head>
+        <title>
+            INCREMENT AND DECREMENT
+        </title>
+        </head>        
+      
+<body bgcolor = "wheat">
+    <br>
+    <br>
+    <center>
+        <p id="output"></p>
+        <input type="text" + onkeypress="myadd()">;
+        <input type="text" + onkeypress="mysub()">;
+
+     <script>
+         var a=0;
+         function myadd( )
+         {
+             b=a++;
+             document.getElementById("output").innerHTML = "THE OUTPUT VALUE IS :" + b;
+         }
+         function mysub( )
+         {
+            b=--a;
+            document.getElementById("output").innerHTML = "THE OUTPUT VALUE IS :" + b;
+         }
+        </script>
+</center>
+</body>
+</html>

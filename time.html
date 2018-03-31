@@ -1,0 +1,37 @@
+<html>
+<head>
+    <title>digital clock</title>
+</head>   
+<body onload="clock()">
+    <style type="text/css">
+
+    .clock{
+        position: absolute;
+        color:black;
+        top :50%;
+        bottom:50%;
+        transform: translateX(75%) translateY(-100%);
+        border: 10px solid black;
+        padding: 30px 45px 125px 50px;
+        font-family:Verdana;
+        font-size:6em;
+    } 
+</style>
+<script>
+function zero(i)
+{
+    if(i<10)
+    {
+        i="0"+i;
+    }
+    return i;
+}
+function clock() 
+{
+    document.getElementById("time").innerHTML =zero(new Date().getHours())+ ":" + zero(new Date().getMinutes()) + ":" + zero(new Date().getSeconds());
+    setInterval('clock()', 1000);
+}
+</script>
+<div id="time" class="clock"></div>
+</body>
+</html>

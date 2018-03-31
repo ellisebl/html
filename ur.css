@@ -1,0 +1,85 @@
+body
+{
+		margin:0;
+		padding:0;
+		background-image:url(forest.jpg);
+		background-size:cover;
+		background-position:center;
+		font-family:sans-serif;
+}
+h1
+{
+	margin-left:540px;
+	margin-top:15px;
+	color:#fff;
+	
+}
+.urlshort{
+	width:900px;
+	height:220px;
+	color:#fff;
+	top:50%;
+	left:50%;
+	position:absolute;
+	transform:translate(-50%,-90%);
+	box-sizing:border-box;
+	opacity:0.6;
+	background:#000000;
+	
+}
+.urlshort p
+{
+	margin:20;
+	padding:10 150 0 300px;
+	font-weight:bold;
+}
+.urlshort input
+{
+	width:50%;
+	height:15%;
+	margin-bottom:30px;
+	margin-left:180px;
+}
+.urlshort input[type="url"]
+{
+	border:none;
+	border-bottom:1px  bold #C71585;
+	background:#;
+	color:#000000;
+	font-size:20px;
+}
+.urlshort button[type="submit"]
+{
+	width:20%;
+	height:15%;
+	margin-bottom:30px;
+	margin-left:300px;
+	border:none;
+	border-bottom:1px  bold #C71585;
+	background:#C0C0C0;
+	color:#000000;
+	font-size:20px;
+	border-radius:20px;
+}
+.urlshort button[type="submit"]:hover
+{
+	cursor:pointer;
+	background:#ffc107;
+	color:#000000;
+}
+.encode input
+{
+	width:30%;
+	height:5%;
+	margin-bottom:30px;
+	margin-top:350px;
+	margin-left:420px;
+}
+.encode input[type="text"]
+{
+	border:none;
+	border-bottom:1px  bold #C71585;
+	background:#C0C0C0;
+	color:#000000;
+	font-size:20px;
+}

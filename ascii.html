@@ -1,0 +1,26 @@
+
+<html>
+        <head>
+        <title>
+            KEY VALUES TO ASCII
+        </title>
+        </head>
+
+<body bgcolor = "wheat">
+    <br>
+    <br>
+    <center>
+        <h1><i>CONVERSION OF KEY VALUES TO ASCII</i></h1>
+  <p>ENTER A KEY:</p>
+  <input type= "text" size= "20" onkeypress= "myFunction(event)">
+  <p id="ASCII"></p>
+     <script>
+     function myFunction(event)
+       {
+        var uni = event.keyCode;
+        document.getElementById("ASCII").innerHTML = "THE ASCII VALUE IS :" + uni;
+        }
+        </script>
+</center>
+</body>
+</html>

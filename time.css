@@ -1,0 +1,9 @@
+div {
+    width: 300px;
+    padding: 25px;
+    margin: 25px;
+}
+p.one {
+    border-style: solid;
+    border-color: red;
+}
